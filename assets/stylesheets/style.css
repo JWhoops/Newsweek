@@ -1,0 +1,96 @@
+body {
+  background-color: #f4f5f6;
+}
+.main-header {
+  max-width: 1350px;
+}
+
+.top-header {
+  background-color: #f72210;
+  height: 95px;
+  padding: 20px 10px 15px;
+  position: relative;
+}
+
+date {
+  color: white;
+}
+
+svg {
+  width: 396px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  fill: white;
+  transform: translate(-50%, 0);
+}
+
+#sign-btn {
+  background: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: -1px;
+}
+
+#subscribe-btn {
+  border-radius: 0;
+  color: #f72210;
+  font-weight: bold;
+}
+
+#header-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: white;
+  position: relative;
+}
+
+#header-nav::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  width: 6%;
+}
+
+#header-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#header-nav ul div {
+  border-right: 1px solid darkgray;
+}
+
+#header-nav ul li {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+#header-nav ul .last {
+  border-right: none;
+  display: inline-block;
+  position: relative;
+}
+
+#header-nav ul .last li {
+  color: grey;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.last img {
+  width: 20px;
+  height: 20px;
+  left: 0;
+}
