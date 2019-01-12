@@ -3,6 +3,8 @@ body {
 }
 .main-header {
   max-width: 1350px;
+  padding-left: 0;
+  padding: 0;
 }
 
 .top-header {
@@ -14,6 +16,7 @@ body {
 
 date {
   color: white;
+  padding-left: 2%;
 }
 
 svg {
@@ -46,6 +49,8 @@ svg {
   padding-bottom: 15px;
   background: white;
   position: relative;
+  padding-right: 90px;
+  border-bottom: 2px solid #f4f5f6;
 }
 
 #header-nav::before {
@@ -74,23 +79,115 @@ svg {
   text-align: center;
   font-weight: bold;
   color: black;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #header-nav ul .last {
   border-right: none;
   display: inline-block;
   position: relative;
+  margin-left: 1%;
 }
 
 #header-nav ul .last li {
   color: grey;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.05em;
+  display: inline-block;
 }
 
 .last img {
   width: 20px;
   height: 20px;
-  left: 0;
+  position: relative;
+  vertical-align: text-bottom;
+  display: inline-block;
+}
+
+.content {
+  max-width: 1348px;
+  background: white;
+  margin-top: 0;
+  padding: 1.5%;
+}
+
+.content-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 10px;
+}
+
+.card-body {
+  padding-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-title {
+  font-size: 1.1em;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 5px;
+  line-height: 1.25em;
+}
+
+.sing-title {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.hr-card {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 100%;
+}
+
+.hr-card img {
+  width: 135px;
+  height: 90px;
+  float: left;
+  margin-right: 10px;
+}
+
+.opinion-container img {
+  margin-right: 10px;
+  float: left;
+  width: 63px;
+  height: 63px;
+}
+.opinion-container h5 {
+  margin-bottom: 5px;
+}
+
+.opinion-container h6 {
+  color: grey;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.last-card {
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+
+#latest-img {
+  width: 135px;
+  height: 90.1px;
+}
+
+.latest-container{
+  padding-bottom: 10px;
 }
