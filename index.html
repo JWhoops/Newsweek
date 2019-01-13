@@ -22,15 +22,7 @@
     <header>
       <div class="main-header container">
         <div class="top-header d-flex justify-content-between align-items-end">
-          <date>Thu, Jan 10, 2019</date>
-          <div>
-            <button id="sign-btn" type="button" class="btn btn-light">
-              SIGN IN
-            </button>
-            <button id="subscribe-btn" type="button" class="btn btn-light">
-              SUBSCRIBE&nbsp>
-            </button>
-          </div>
+          <date class="hide">Thu, Jan 10, 2019</date>
           <svg
             version="1.1"
             id="Layer_1"
@@ -48,19 +40,29 @@
               ></path>
             </g>
           </svg>
+          <div class="btn-container">
+            <button id="sign-btn" type="button" class="btn btn-light">
+              SIGN IN
+            </button>
+            <button id="subscribe-btn" type="button" class="btn btn-light">
+              SUBSCRIBE&nbsp>
+            </button>
+          </div>
         </div>
-        <nav id="header-nav">
-          <ul class="row justify-content-start align-items-center">
-            <div class="col"><li>U.S.</li></div>
-            <div class="col"><li>World</li></div>
-            <div class="col"><li>Business</li></div>
-            <div class="col-2"><li>Tech & Science</li></div>
-            <div class="col"><li>Culture</li></div>
-            <div class="col"><li>Sports</li></div>
-            <div class="col"><li>Health</li></div>
-            <div class="col"><li>Opinion</li></div>
-            <div class="col"><li>Nedelible</li></div>
-            <div class="last">
+        <nav id="header-nav" class="hide">
+          <ul
+            class="d-flex justify-content-between justify-content-start align-items-center"
+          >
+            <div class="short"><li>U.S.</li></div>
+            <div class="short"><li>World</li></div>
+            <div class="short"><li>Business</li></div>
+            <div class="long"><li>Tech & Science</li></div>
+            <div class="short"><li>Culture</li></div>
+            <div class="short"><li>Sports</li></div>
+            <div class="short"><li>Health</li></div>
+            <div class="short"><li>Opinion</li></div>
+            <div class="short"><li>Nedelible</li></div>
+            <div class=" last">
               <li>Search</li>
               <img src="assets/imgs/search.svg" />
             </div>
@@ -71,7 +73,9 @@
     <section>
       <div class="container-fluid content">
         <div class="row">
-          <div class="col-sm content-col">
+          <div
+            class="order-sm-2 order-md-1 col-sm-12 col-md-5 col-lg content-col"
+          >
             <div class="content-title">FEATURED STORIES</div>
             <div class="card">
               <img
@@ -140,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-5 content-col">
+          <div class="col-sm-12 col-md-7 col-lg-5 content-col order-sm-1 ">
             <div class="content-title">TOP STORIES</div>
             <div class="card">
               <img
@@ -278,13 +282,8 @@
                 Trump Says Freshmen Dems Support Wall. They Don’t
               </h5>
             </div>
-            <div class="card">
-              <h5 class="card-title sing-title">
-                asdfadsfasfadsfsadf Trump Says Freshmen Dems Support Wall. They
-              </h5>
-            </div>
           </div>
-          <div class="col-sm content-col">
+          <div class="order-sm-3 col-sm col-lg content-col">
             <div class="content-title">OPINION</div>
             <div class="card">
               <div class="opinion-container">
@@ -448,8 +447,691 @@
           </div>
         </div>
       </div>
+      <div class="container" id="magazin-container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12 f-mag-items">
+            <img src="assets/imgs/20190118cover1800x2400.jpg" />
+            <div>SEE ALL ARTICLES ></div>
+          </div>
+          <div class="col-sm-12 col-md-9">
+            <div class=" mag-title mg-title-container">
+              <span>N</span> IN THE MAGAZINE
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-12 mag-items">
+                <img src="assets/imgs/fetrumptroops021075161036.jpg" alt="" />
+                <div id="key-word">COVER</div>
+                <div id="type">U.S.</div>
+                <p class="mag-item-detail">
+                  Trump Wants End to Wars, but Military Calls It Illusion
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-12  mag-items">
+                <img src="assets/imgs/fetrumptroops021075161036.jpg" alt="" />
+                <div id="key-word">COVER</div>
+                <div id="type">U.S.</div>
+                <p class="mag-item-detail">
+                  Trump Wants End to Wars, but Military Calls It Illusion
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-12  mag-items">
+                <img src="assets/imgs/fetrumptroops021075161036.jpg" alt="" />
+                <div id="key-word">COVER</div>
+                <div id="type">U.S.</div>
+                <p class="mag-item-detail">
+                  Trump Wants End to Wars, but Military Calls It Illusion
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row other-row">
+            <div class="col-md-3 col-sm-12  mag-items">
+              <img src="assets/imgs/fetrumptroops021075161036.jpg" alt="" />
+              <div id="key-word">COVER</div>
+              <div id="type">U.S.</div>
+              <p class="mag-item-detail">
+                Trump Wants End to Wars, but Military Calls It Illusion
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-12 mag-items">
+              <img src="assets/imgs/fetrumptroops021075161036.jpg" alt="" />
+              <div id="key-word">COVER</div>
+              <div id="type">U.S.</div>
+              <p class="mag-item-detail">
+                Trump Wants End to Wars, but Military Calls It Illusion
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-12 mag-items">
+              <img src="assets/imgs/fetrumptroops021075161036.jpg" alt="" />
+              <div id="key-word">COVER</div>
+              <div id="type">U.S.</div>
+              <p class="mag-item-detail">
+                Trump Wants End to Wars, but Military Calls It Illusion
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-12 mag-items">
+              <img src="assets/imgs/fetrumptroops021075161036.jpg" alt="" />
+              <div id="key-word">COVER</div>
+              <div id="type">U.S.</div>
+              <p class="mag-item-detail">
+                Trump Wants End to Wars, but Military Calls It Illusion
+              </p>
+            </div>
+          </div>
+          <div class="other-title mag-title mg-title-container ">
+            <span>N</span> Editor's Pick
+          </div>
+          <div class="row other-row">
+            <div class="col-md-6 col-lg-3 mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3  mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3  mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3  mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3  mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3  mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3  mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3  mag-items">
+              <div class="other-img-container">
+                <img src="assets/imgs/gettyimages-1075872034_0.jpg" alt="" />
+                <div class="lbl">U.S.</div>
+              </div>
+              <h1 class="mag-item-title">
+                Russia Calls U.S. Syria Exit 'Step in Right Direction'
+              </h1>
+              <p class="other-detail">
+                The Russian Foreign Ministry spokesperson detailed a 100-year
+                history of U.S. intervention abroad, from Latin America to the
+                Middle East.
+              </p>
+            </div>
+          </div>
+          <div class="other-title mag-title mg-title-container">
+            <span>N</span> FEATURED SLIDESHOWS
+          </div>
+          <div class="row other-row">
+            <div class="col-md-4 col-sm-12">
+              <div class="card this-card">
+                <div class="imggg-container">
+                  <img src="assets/imgs/image-00_0.jpg" class="card-img-top" />
+                  <div class="slide-container">
+                    <div class="slide-text">21</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Ranked: Quentin Tarantino’s Best (and Worst) Movies
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card this-card">
+                <div class="imggg-container">
+                  <img src="assets/imgs/image-00_0.jpg" class="card-img-top" />
+                  <div class="slide-container">
+                    <div class="slide-text">21</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Ranked: Quentin Tarantino’s Best (and Worst) Movies
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card this-card">
+                <div class="imggg-container">
+                  <img src="assets/imgs/image-00_0.jpg" class="card-img-top" />
+                  <div class="slide-container">
+                    <div class="slide-text">21</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Ranked: Quentin Tarantino’s Best (and Worst) Movies
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card this-card">
+                <div class="imggg-container">
+                  <img src="assets/imgs/image-00_0.jpg" class="card-img-top" />
+                  <div class="slide-container">
+                    <div class="slide-text">21</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Ranked: Quentin Tarantino’s Best (and Worst) Movies
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card this-card">
+                <div class="imggg-container">
+                  <img src="assets/imgs/image-00_0.jpg" class="card-img-top" />
+                  <div class="slide-container">
+                    <div class="slide-text">21</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Ranked: Quentin Tarantino’s Best (and Worst) Movies
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card this-card">
+                <div class="imggg-container">
+                  <img src="assets/imgs/image-00_0.jpg" class="card-img-top" />
+                  <div class="slide-container">
+                    <div class="slide-text">21</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Ranked: Quentin Tarantino’s Best (and Worst) Movies
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row other-row row-row">
+          <div class="col-sm-12"><div class="type-title">U.S.</div></div>
+        </div>
+        <div class="row other-row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row other-row row-row">
+          <div class="col-sm-12"><div class="type-title">World</div></div>
+        </div>
+        <div class="row other-row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row other-row row-row">
+          <div class="col-sm-12"><div class="type-title">Business</div></div>
+        </div>
+        <div class="row other-row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row other-row row-row">
+          <div class="col-sm-12"><div class="type-title">Tech & Science</div></div>
+        </div>
+        <div class="row other-row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row other-row row-row">
+          <div class="col-sm-12"><div class="type-title">Sports</div></div>
+        </div>
+        <div class="row other-row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card this-card">
+              <div class="imggg-container">
+                <img
+                  src="assets/imgs/gettyimages-1081066696.jpg"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iowa Senator Condemns Steve King's 'Racist' Remarks
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="row other-row">
+              <div class="card">
+                <div class="opinion-container latest-container">
+                  <img
+                    id="latest-img"
+                    src="./assets/imgs/gettyimages-1081028370.jpg"
+                    alt=""
+                  />
+                  <h5 class="card-title sing-title">
+                    Cara Delevingne's R. Kelly Diss Cost Her 50K Followers
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
+    <footer>
+      <div class="center">Links</div>
+      <div>Copyright</div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

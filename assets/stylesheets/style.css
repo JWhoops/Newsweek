@@ -72,14 +72,21 @@ svg {
 }
 
 #header-nav ul div {
+  flex-basis: 100%;
+  text-align: center;
   border-right: 1px solid darkgray;
 }
 
+.long {
+  flex-shrink: 1;
+}
+.short {
+  flex-shrink: 1.05;
+}
+
 #header-nav ul li {
-  text-align: center;
   font-weight: bold;
   color: black;
-  font-size: 1.1em;
 }
 
 #header-nav ul .last {
@@ -109,6 +116,7 @@ svg {
   background: white;
   margin-top: 0;
   padding: 1.5%;
+  padding-bottom: 0;
 }
 
 .content-title {
@@ -133,7 +141,7 @@ svg {
 }
 
 .card-title {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom: 0;
   font-weight: bold;
 }
@@ -144,7 +152,7 @@ svg {
 }
 
 .sing-title {
-  font-size: 1em;
+  font-size: 1.1em;
   margin-bottom: 15px;
 }
 
@@ -210,4 +218,200 @@ svg {
 .sign-up-container h6 {
   margin-top: 10px;
   font-size: 0.9em;
+}
+
+#magazin-container {
+  max-width: 1350px;
+  background: white;
+}
+
+.f-mag-items img {
+  width: 100%;
+}
+
+.f-mag-items div {
+  margin-top: -1px;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px;
+  background-color: #f4f5f6;
+}
+
+.mag-title {
+  font-weight: bold;
+  width: 100%;
+}
+
+.mag-title span {
+  background: #f72210;
+  color: white;
+  padding: 5px;
+  font-weight: 900;
+}
+
+.mg-title-container {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mag-items img {
+  width: 100%;
+  height: 290px;
+}
+
+#key-word {
+  background: #f72210;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+#type {
+  margin-top: 10px;
+  margin-left: 8px;
+  display: inline-block;
+  font-weight: bold;
+  color: #f72210;
+}
+
+.mag-item-detail {
+  font-weight: bold;
+}
+
+.other-row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.other-title {
+  margin-top: 15px;
+  font-size: 1.3em;
+}
+
+.other-img-container {
+  position: relative;
+}
+
+.other-img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.lbl {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+  background: #e5e5e5;
+  font-weight: bold;
+  color: #f72210;
+}
+
+.mag-item-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.other-detail {
+  line-height: 1.15em;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.imggg-container {
+  position: relative;
+}
+.slide-container {
+  width: 70px;
+  height: 52px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url("../imgs/icon-slideshows-nw.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f72210;
+  font-size: 1.4em;
+}
+
+.slide-text {
+  position: absolute;
+  right: 16px;
+  bottom: 5px;
+}
+
+.row-row {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 20px;
+}
+
+.this-card {
+  border-bottom: none;
+}
+
+.type-title {
+  width: 100%;
+  font-weight: bold;
+  color: #f72210;
+  font-size: 1.3em;
+}
+
+.hide {
+  display: block;
+}
+
+@media only screen and (max-width: 976px) {
+  .top-header {
+    height: 40px;
+    padding-top: 0;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  svg {
+    widows: 131.9px;
+    height: 20.05px;
+    left: 8%;
+    padding: 0;
+  }
+
+  #sign-btn {
+    height: 26px;
+    font-size: 14px;
+    padding-top: 2px;
+    margin-top: 5px;
+  }
+
+  #subscribe-btn {
+    height: 26px;
+    font-size: 14px;
+    padding-top: 2px;
+    margin-top: 5px;
+  }
+
+  .btn-container {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+  }
+
+  .mag-items img {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 751px) {
+  .mag-title {
+    margin-top: 20px;
+  }
+
+  
 }
